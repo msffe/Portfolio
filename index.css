@@ -1,0 +1,137 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family:'Raleway', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1b1b1b;
+  padding: 10px 10px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: #cfcfcf;
+  padding: 12px;
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 28px;
+}
+
+header a:hover {
+  background-color:#4e0d0d;
+  color: #eeeeee;
+}
+
+header a.active {
+  background-color: #4e0d0d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  margin-right: 53px;
+  margin-top: 7px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  }
+
+
+  .bod {
+    margin-top: 0;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #cfcfcf;
+  }
+
+.tex {
+  padding: 12px;
+  font-size: 18px; 
+  width: 500px;
+  margin-left: 38px;
+}
+
+.img {
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;  
+  flex-wrap: nowrap;
+  margin: 5px 10px 10px 50px;
+  height: auto;
+  width: 1175px;
+}
+
+.tex-1 {
+  display: block;
+  padding: 12px;
+  font-size: 18px; 
+  width: 585px;
+  margin-left: 38px;
+}
+
+.a {
+  text-decoration: none !important;
+  color: #cfcfcf;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.bod-2 {
+  background-color: #5f5f5f;
+  width: 100%;
+}
+
+.sector {
+  padding: 12px;
+  font-size: 18px; 
+  margin-left: 35px;
+  margin-right: 62px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+}
+
+.active-1 {
+  width: 20%;
+  background-color: #4e0d0d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  margin: 3px 18px 34px 46px;
+  color: #cfcfcf;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+.Meph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding-left: 35px;
+  padding-right: 40px;
+}
